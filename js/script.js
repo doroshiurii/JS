@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
 const   adv = document.querySelectorAll('.promo__adv > *'),
-        descr = document.querySelector(".promo__genre").textContent = "Драма",
+        descr = document.querySelector(".promo__genre").textContent = "Drama",
         background = document.querySelector("div.promo__bg").style.cssText = "background: url('../img/bg.jpg'); ",
         movieList = document.querySelector('.promo__interactive-list'),
         addForm = document.querySelector('form.add'),
@@ -12,11 +12,11 @@ const   adv = document.querySelectorAll('.promo__adv > *'),
 
 const movieDB = {
     movies: [
-        "Логан",
-        "Лига справедливости",
-        "Ла-ла лэнд",
-        "Одержимость",
-        "Скотт Пилигрим против..."
+        "Logan",
+        "JUSTICE LEAGUE",
+        "La-la Land",
+        "Shazam",
+        "Scott Pilgrim vs. the World"
     ],
     moviesSort: () => {
         movieDB.movies.sort();
