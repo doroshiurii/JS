@@ -1,0 +1,29 @@
+{
+  "name": "Food",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "json-server": "^0.16.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doroshiurii/JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doroshiurii/JS/issues"
+  },
+  "homepage": "https://github.com/doroshiurii/JS#readme",
+  "description": ""
+}
