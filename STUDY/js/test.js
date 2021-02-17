@@ -1,28 +1,10 @@
-'use strict';
+function checkTitle(title) {
+    let arr = title.split(' ');
 
-class User {
-    constructor(name, age) {
-        this.name = name;
-        this._age = age;
+    function check(elem){
+        return (elem.toString().chartAt() == elem.toString().chartAt().toUpperCase());
     }
-
-    say(){
-        console.log(`User name  + ${this.name} +  with age  + ${this._age}`);
-    }
-    get age(){
-        return this._age;
-    }
-    set age (age){
-        if (typeof age === 'number' && age > 0 && age < 120) {
-            this._age = age;
-        } else {
-            console.log("error");
-        }
-    }
+    return arr.every(check);
 }
 
-const iurii = new User('Iurii', 27);
-console.log(iurii.age);
-iurii.age = 99;
-console.log(iurii.age);
-iurii.say();
+console.log(checkTitle("A Mind Boggling Achievement"));
